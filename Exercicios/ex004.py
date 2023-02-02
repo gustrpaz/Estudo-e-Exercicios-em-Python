@@ -1,0 +1,12 @@
+a = input('Digite algo: ')
+print('O tipo da resposta é', type(a))
+print('Resposta é numérico? ', a.isnumeric())
+print('Resposta é maiúsculo?', a.isupper())
+print('Resposta é alfabético? ', a.isalpha())
+print('Resposta é minúsculo? ', a.islower())
+print('Resposta é decimal? ', a.isdecimal())
+print('Resposta é um espaço? ', a.isspace())
+print('Resposta é Alpha/Num? ', a.isalnum())
+print('Resposta é imprimível? ', a.isprintable())
+print('Resposta é capitalizada? ', a.istitle())
+ 
